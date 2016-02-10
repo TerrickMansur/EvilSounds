@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>filesName</key>
+		<string>achievement</string>
+		<key>soundFileType</key>
+		<string>wav</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>bubble1</string>
+		<key>soundFileType</key>
+		<string>wav</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>ahh-nicely</string>
+		<key>soundFileType</key>
+		<string>mp3</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>cake-full</string>
+		<key>soundFileType</key>
+		<string>aif</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>small-applause</string>
+		<key>soundFileType</key>
+		<string>mp3</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>sad-trombone</string>
+		<key>soundFileType</key>
+		<string>aiff</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>ho</string>
+		<key>soundFileType</key>
+		<string>mp3</string>
+	</dict>
+	<dict>
+		<key>filesName</key>
+		<string>doom</string>
+		<key>soundFileType</key>
+		<string>mp3</string>
+	</dict>
+</array>
+</plist>

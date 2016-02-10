@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SoundManager.h"
 
 @interface AppDelegate ()
 

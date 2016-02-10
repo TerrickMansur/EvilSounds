@@ -7,16 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2B8EC37B9D32F3863B53043 /* libPods-EvilApplesInterviewApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5A725A89F5941C9EB9B0B1 /* libPods-EvilApplesInterviewApp.a */; };
+		CB0073B21C6B93F7000CEC3F /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0073B11C6B93F7000CEC3F /* launchImage.png */; };
+		CB04BC4B1C6B768F0042C806 /* speakers.png in Resources */ = {isa = PBXBuildFile; fileRef = CB04BC4A1C6B768F0042C806 /* speakers.png */; };
+		CB04BC4D1C6B80650042C806 /* bubble1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB04BC4C1C6B80650042C806 /* bubble1.gif */; };
+		CB5ECCE51C6BB02300E9E2FE /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECCE41C6BB02300E9E2FE /* ParentViewController.m */; };
 		CB7948A11C6A9A3100E70587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948A01C6A9A3100E70587 /* main.m */; };
 		CB7948A41C6A9A3100E70587 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948A31C6A9A3100E70587 /* AppDelegate.m */; };
 		CB7948A71C6A9A3100E70587 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948A61C6A9A3100E70587 /* RootViewController.m */; };
-		CB7948AA1C6A9A3100E70587 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948A91C6A9A3100E70587 /* DataViewController.m */; };
-		CB7948AD1C6A9A3100E70587 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948AC1C6A9A3100E70587 /* ModelController.m */; };
 		CB7948B01C6A9A3100E70587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7948AE1C6A9A3100E70587 /* Main.storyboard */; };
 		CB7948B21C6A9A3100E70587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7948B11C6A9A3100E70587 /* Assets.xcassets */; };
 		CB7948B51C6A9A3100E70587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7948B31C6A9A3100E70587 /* LaunchScreen.storyboard */; };
 		CB7948C01C6A9A3100E70587 /* EvilApplesInterviewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948BF1C6A9A3100E70587 /* EvilApplesInterviewAppTests.m */; };
 		CB7948CB1C6A9A3100E70587 /* EvilApplesInterviewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948CA1C6A9A3100E70587 /* EvilApplesInterviewAppUITests.m */; };
+		CB7948DB1C6A9A6300E70587 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7948DA1C6A9A6300E70587 /* SoundManager.m */; };
+		CB7948F71C6AA0E800E70587 /* achievement.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB7948DD1C6AA0E800E70587 /* achievement.wav */; };
+		CB7948F81C6AA0E800E70587 /* ahh-nicely.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948DE1C6AA0E800E70587 /* ahh-nicely.mp3 */; };
+		CB7948F91C6AA0E800E70587 /* boo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948DF1C6AA0E800E70587 /* boo.mp3 */; };
+		CB7948FA1C6AA0E800E70587 /* bubble.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E01C6AA0E800E70587 /* bubble.wav */; };
+		CB7948FB1C6AA0E800E70587 /* bubble1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E11C6AA0E800E70587 /* bubble1.wav */; };
+		CB7948FC1C6AA0E800E70587 /* cake-full.aif in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E21C6AA0E800E70587 /* cake-full.aif */; };
+		CB7948FD1C6AA0E800E70587 /* chat_incoming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E31C6AA0E800E70587 /* chat_incoming.mp3 */; };
+		CB7948FE1C6AA0E800E70587 /* click0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E41C6AA0E800E70587 /* click0.mp3 */; };
+		CB7948FF1C6AA0E800E70587 /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E51C6AA0E800E70587 /* click1.mp3 */; };
+		CB7949001C6AA0E800E70587 /* doom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E61C6AA0E800E70587 /* doom.mp3 */; };
+		CB7949011C6AA0E800E70587 /* drumroll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E71C6AA0E800E70587 /* drumroll.mp3 */; };
+		CB7949021C6AA0E800E70587 /* elevator-badspeakers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E81C6AA0E800E70587 /* elevator-badspeakers.mp3 */; };
+		CB7949031C6AA0E800E70587 /* gavel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948E91C6AA0E800E70587 /* gavel.mp3 */; };
+		CB7949041C6AA0E800E70587 /* ho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948EA1C6AA0E800E70587 /* ho.mp3 */; };
+		CB7949051C6AA0E800E70587 /* laser-prep-reverse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948EB1C6AA0E800E70587 /* laser-prep-reverse.mp3 */; };
+		CB7949061C6AA0E800E70587 /* laser-prep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948EC1C6AA0E800E70587 /* laser-prep.mp3 */; };
+		CB7949071C6AA0E800E70587 /* ninja-sword.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948ED1C6AA0E800E70587 /* ninja-sword.mp3 */; };
+		CB7949081C6AA0E800E70587 /* ninja-whack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948EE1C6AA0E800E70587 /* ninja-whack.mp3 */; };
+		CB7949091C6AA0E800E70587 /* ninja-whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948EF1C6AA0E800E70587 /* ninja-whoosh.mp3 */; };
+		CB79490A1C6AA0E800E70587 /* notice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F01C6AA0E800E70587 /* notice.mp3 */; };
+		CB79490B1C6AA0E800E70587 /* sad-trombone.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F11C6AA0E800E70587 /* sad-trombone.aiff */; };
+		CB79490C1C6AA0E800E70587 /* select-classic.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F21C6AA0E800E70587 /* select-classic.wav */; };
+		CB79490D1C6AA0E800E70587 /* small-applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F31C6AA0E800E70587 /* small-applause.mp3 */; };
+		CB79490E1C6AA0E800E70587 /* sonar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F41C6AA0E800E70587 /* sonar.mp3 */; };
+		CB79490F1C6AA0E800E70587 /* start-echo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F51C6AA0E800E70587 /* start-echo.mp3 */; };
+		CB7949101C6AA0E800E70587 /* whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7948F61C6AA0E800E70587 /* whoosh.mp3 */; };
+		CB7949121C6AA21D00E70587 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7949111C6AA21D00E70587 /* AudioToolbox.framework */; };
+		CB7949161C6AB3D800E70587 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7949151C6AB3D800E70587 /* iCarousel.m */; };
+		CB79491A1C6ABBB600E70587 /* achievement.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB7949191C6ABBB600E70587 /* achievement.gif */; };
+		CB79491C1C6AC1AD00E70587 /* ahh-nicely.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB79491B1C6AC1AD00E70587 /* ahh-nicely.gif */; };
+		CB79491F1C6ACDB600E70587 /* ScreenList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB79491E1C6ACDB600E70587 /* ScreenList.plist */; };
+		CB7949231C6AD07800E70587 /* ScreenList.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7949221C6AD07800E70587 /* ScreenList.m */; };
+		CB7949251C6AD68400E70587 /* small-applause.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB7949241C6AD68400E70587 /* small-applause.gif */; };
+		CB7949271C6AD96A00E70587 /* sad-trombone.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB7949261C6AD96A00E70587 /* sad-trombone.gif */; };
+		CB7949291C6ADA4500E70587 /* doom.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB7949281C6ADA4500E70587 /* doom.gif */; };
+		CB79492B1C6ADA9000E70587 /* cake-full.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB79492A1C6ADA9000E70587 /* cake-full.gif */; };
+		CB79492D1C6ADC1400E70587 /* ho.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB79492C1C6ADC1400E70587 /* ho.gif */; };
+		CB7949331C6B047100E70587 /* SoundManager+SoundManagerExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7949321C6B047100E70587 /* SoundManager+SoundManagerExtended.m */; };
+		CBACD4551C6B959900B5A40A /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBACD4531C6B959900B5A40A /* TutorialViewController.m */; };
+		CBACD4561C6B959900B5A40A /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBACD4541C6B959900B5A40A /* TutorialViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +81,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB79489C1C6A9A3100E70587 /* EvilApplesInterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilApplesInterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A725A89F5941C9EB9B0B1 /* libPods-EvilApplesInterviewApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EvilApplesInterviewApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6532385353AB8AB061D1BC64 /* Pods-EvilApplesInterviewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvilApplesInterviewApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvilApplesInterviewApp/Pods-EvilApplesInterviewApp.release.xcconfig"; sourceTree = "<group>"; };
+		CB0073B01C6B8D54000CEC3F /* iCarousel-README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iCarousel-README.md"; sourceTree = "<group>"; };
+		CB0073B11C6B93F7000CEC3F /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		CB04BC4A1C6B768F0042C806 /* speakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speakers.png; sourceTree = "<group>"; };
+		CB04BC4C1C6B80650042C806 /* bubble1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bubble1.gif; sourceTree = "<group>"; };
+		CB5ECCE31C6BB02300E9E2FE /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		CB5ECCE41C6BB02300E9E2FE /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		CB79489C1C6A9A3100E70587 /* Evil Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evil Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7948A01C6A9A3100E70587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB7948A21C6A9A3100E70587 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB7948A31C6A9A3100E70587 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB7948A51C6A9A3100E70587 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		CB7948A61C6A9A3100E70587 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		CB7948A81C6A9A3100E70587 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		CB7948A91C6A9A3100E70587 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		CB7948AB1C6A9A3100E70587 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		CB7948AC1C6A9A3100E70587 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		CB7948AF1C6A9A3100E70587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB7948B11C6A9A3100E70587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7948B41C6A9A3100E70587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +105,53 @@
 		CB7948C61C6A9A3100E70587 /* EvilApplesInterviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilApplesInterviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7948CA1C6A9A3100E70587 /* EvilApplesInterviewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvilApplesInterviewAppUITests.m; sourceTree = "<group>"; };
 		CB7948CC1C6A9A3100E70587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7948D91C6A9A6300E70587 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		CB7948DA1C6A9A6300E70587 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		CB7948DD1C6AA0E800E70587 /* achievement.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = achievement.wav; sourceTree = "<group>"; };
+		CB7948DE1C6AA0E800E70587 /* ahh-nicely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-nicely.mp3"; sourceTree = "<group>"; };
+		CB7948DF1C6AA0E800E70587 /* boo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boo.mp3; sourceTree = "<group>"; };
+		CB7948E01C6AA0E800E70587 /* bubble.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble.wav; sourceTree = "<group>"; };
+		CB7948E11C6AA0E800E70587 /* bubble1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble1.wav; sourceTree = "<group>"; };
+		CB7948E21C6AA0E800E70587 /* cake-full.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cake-full.aif"; sourceTree = "<group>"; };
+		CB7948E31C6AA0E800E70587 /* chat_incoming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chat_incoming.mp3; sourceTree = "<group>"; };
+		CB7948E41C6AA0E800E70587 /* click0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click0.mp3; sourceTree = "<group>"; };
+		CB7948E51C6AA0E800E70587 /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		CB7948E61C6AA0E800E70587 /* doom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doom.mp3; sourceTree = "<group>"; };
+		CB7948E71C6AA0E800E70587 /* drumroll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumroll.mp3; sourceTree = "<group>"; };
+		CB7948E81C6AA0E800E70587 /* elevator-badspeakers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "elevator-badspeakers.mp3"; sourceTree = "<group>"; };
+		CB7948E91C6AA0E800E70587 /* gavel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gavel.mp3; sourceTree = "<group>"; };
+		CB7948EA1C6AA0E800E70587 /* ho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ho.mp3; sourceTree = "<group>"; };
+		CB7948EB1C6AA0E800E70587 /* laser-prep-reverse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser-prep-reverse.mp3"; sourceTree = "<group>"; };
+		CB7948EC1C6AA0E800E70587 /* laser-prep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser-prep.mp3"; sourceTree = "<group>"; };
+		CB7948ED1C6AA0E800E70587 /* ninja-sword.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ninja-sword.mp3"; sourceTree = "<group>"; };
+		CB7948EE1C6AA0E800E70587 /* ninja-whack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ninja-whack.mp3"; sourceTree = "<group>"; };
+		CB7948EF1C6AA0E800E70587 /* ninja-whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ninja-whoosh.mp3"; sourceTree = "<group>"; };
+		CB7948F01C6AA0E800E70587 /* notice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notice.mp3; sourceTree = "<group>"; };
+		CB7948F11C6AA0E800E70587 /* sad-trombone.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "sad-trombone.aiff"; sourceTree = "<group>"; };
+		CB7948F21C6AA0E800E70587 /* select-classic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "select-classic.wav"; sourceTree = "<group>"; };
+		CB7948F31C6AA0E800E70587 /* small-applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "small-applause.mp3"; sourceTree = "<group>"; };
+		CB7948F41C6AA0E800E70587 /* sonar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonar.mp3; sourceTree = "<group>"; };
+		CB7948F51C6AA0E800E70587 /* start-echo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start-echo.mp3"; sourceTree = "<group>"; };
+		CB7948F61C6AA0E800E70587 /* whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoosh.mp3; sourceTree = "<group>"; };
+		CB7949111C6AA21D00E70587 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CB7949141C6AB3D800E70587 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		CB7949151C6AB3D800E70587 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		CB7949191C6ABBB600E70587 /* achievement.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = achievement.gif; sourceTree = "<group>"; };
+		CB79491B1C6AC1AD00E70587 /* ahh-nicely.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ahh-nicely.gif"; sourceTree = "<group>"; };
+		CB79491E1C6ACDB600E70587 /* ScreenList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ScreenList.plist; sourceTree = "<group>"; };
+		CB7949211C6AD07800E70587 /* ScreenList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenList.h; sourceTree = "<group>"; };
+		CB7949221C6AD07800E70587 /* ScreenList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenList.m; sourceTree = "<group>"; };
+		CB7949241C6AD68400E70587 /* small-applause.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "small-applause.gif"; sourceTree = "<group>"; };
+		CB7949261C6AD96A00E70587 /* sad-trombone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sad-trombone.gif"; sourceTree = "<group>"; };
+		CB7949281C6ADA4500E70587 /* doom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = doom.gif; sourceTree = "<group>"; };
+		CB79492A1C6ADA9000E70587 /* cake-full.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cake-full.gif"; sourceTree = "<group>"; };
+		CB79492C1C6ADC1400E70587 /* ho.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ho.gif; sourceTree = "<group>"; };
+		CB7949311C6B047100E70587 /* SoundManager+SoundManagerExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoundManager+SoundManagerExtended.h"; sourceTree = "<group>"; };
+		CB7949321C6B047100E70587 /* SoundManager+SoundManagerExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SoundManager+SoundManagerExtended.m"; sourceTree = "<group>"; };
+		CBACD4521C6B959900B5A40A /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		CBACD4531C6B959900B5A40A /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		CBACD4541C6B959900B5A40A /* TutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		CE59A526844201933BF204D7 /* Pods-EvilApplesInterviewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvilApplesInterviewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvilApplesInterviewApp/Pods-EvilApplesInterviewApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7949121C6AA21D00E70587 /* AudioToolbox.framework in Frameworks */,
+				A2B8EC37B9D32F3863B53043 /* libPods-EvilApplesInterviewApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,20 +181,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		653ACA850EACD4DC5A736A7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE59A526844201933BF204D7 /* Pods-EvilApplesInterviewApp.debug.xcconfig */,
+				6532385353AB8AB061D1BC64 /* Pods-EvilApplesInterviewApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6902020961060592FDC41CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A725A89F5941C9EB9B0B1 /* libPods-EvilApplesInterviewApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0073A51C6B8653000CEC3F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB7948A51C6A9A3100E70587 /* RootViewController.h */,
+				CB7948A61C6A9A3100E70587 /* RootViewController.m */,
+				CBACD4521C6B959900B5A40A /* TutorialViewController.h */,
+				CBACD4531C6B959900B5A40A /* TutorialViewController.m */,
+				CBACD4541C6B959900B5A40A /* TutorialViewController.xib */,
+				CB5ECCE31C6BB02300E9E2FE /* ParentViewController.h */,
+				CB5ECCE41C6BB02300E9E2FE /* ParentViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CB04BC491C6B76820042C806 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB0073B11C6B93F7000CEC3F /* launchImage.png */,
+				CB04BC4A1C6B768F0042C806 /* speakers.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CB7948931C6A9A3100E70587 = {
 			isa = PBXGroup;
 			children = (
+				CB7949111C6AA21D00E70587 /* AudioToolbox.framework */,
 				CB79489E1C6A9A3100E70587 /* EvilApplesInterviewApp */,
 				CB7948BE1C6A9A3100E70587 /* EvilApplesInterviewAppTests */,
 				CB7948C91C6A9A3100E70587 /* EvilApplesInterviewAppUITests */,
 				CB79489D1C6A9A3100E70587 /* Products */,
+				653ACA850EACD4DC5A736A7F /* Pods */,
+				6902020961060592FDC41CEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CB79489D1C6A9A3100E70587 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB79489C1C6A9A3100E70587 /* EvilApplesInterviewApp.app */,
+				CB79489C1C6A9A3100E70587 /* Evil Sounds.app */,
 				CB7948BB1C6A9A3100E70587 /* EvilApplesInterviewAppTests.xctest */,
 				CB7948C61C6A9A3100E70587 /* EvilApplesInterviewAppUITests.xctest */,
 			);
@@ -107,14 +247,15 @@
 		CB79489E1C6A9A3100E70587 /* EvilApplesInterviewApp */ = {
 			isa = PBXGroup;
 			children = (
+				CB0073A51C6B8653000CEC3F /* ViewController */,
+				CB04BC491C6B76820042C806 /* Images */,
+				CB7949201C6AD05000E70587 /* Data */,
+				CB7949181C6ABBAE00E70587 /* Gifs */,
+				CB7949131C6AB2CF00E70587 /* ThirdPartyClasses */,
+				CB7948DC1C6AA0D800E70587 /* SoundClips */,
+				CB7948D81C6A9A4400E70587 /* SoundManager */,
 				CB7948A21C6A9A3100E70587 /* AppDelegate.h */,
 				CB7948A31C6A9A3100E70587 /* AppDelegate.m */,
-				CB7948A51C6A9A3100E70587 /* RootViewController.h */,
-				CB7948A61C6A9A3100E70587 /* RootViewController.m */,
-				CB7948A81C6A9A3100E70587 /* DataViewController.h */,
-				CB7948A91C6A9A3100E70587 /* DataViewController.m */,
-				CB7948AB1C6A9A3100E70587 /* ModelController.h */,
-				CB7948AC1C6A9A3100E70587 /* ModelController.m */,
 				CB7948AE1C6A9A3100E70587 /* Main.storyboard */,
 				CB7948B11C6A9A3100E70587 /* Assets.xcassets */,
 				CB7948B31C6A9A3100E70587 /* LaunchScreen.storyboard */,
@@ -150,6 +291,85 @@
 			path = EvilApplesInterviewAppUITests;
 			sourceTree = "<group>";
 		};
+		CB7948D81C6A9A4400E70587 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB7948D91C6A9A6300E70587 /* SoundManager.h */,
+				CB7948DA1C6A9A6300E70587 /* SoundManager.m */,
+				CB7949311C6B047100E70587 /* SoundManager+SoundManagerExtended.h */,
+				CB7949321C6B047100E70587 /* SoundManager+SoundManagerExtended.m */,
+			);
+			name = SoundManager;
+			sourceTree = "<group>";
+		};
+		CB7948DC1C6AA0D800E70587 /* SoundClips */ = {
+			isa = PBXGroup;
+			children = (
+				CB7948DD1C6AA0E800E70587 /* achievement.wav */,
+				CB7948DE1C6AA0E800E70587 /* ahh-nicely.mp3 */,
+				CB7948DF1C6AA0E800E70587 /* boo.mp3 */,
+				CB7948E01C6AA0E800E70587 /* bubble.wav */,
+				CB7948E11C6AA0E800E70587 /* bubble1.wav */,
+				CB7948E21C6AA0E800E70587 /* cake-full.aif */,
+				CB7948E31C6AA0E800E70587 /* chat_incoming.mp3 */,
+				CB7948E41C6AA0E800E70587 /* click0.mp3 */,
+				CB7948E51C6AA0E800E70587 /* click1.mp3 */,
+				CB7948E61C6AA0E800E70587 /* doom.mp3 */,
+				CB7948E71C6AA0E800E70587 /* drumroll.mp3 */,
+				CB7948E81C6AA0E800E70587 /* elevator-badspeakers.mp3 */,
+				CB7948E91C6AA0E800E70587 /* gavel.mp3 */,
+				CB7948EA1C6AA0E800E70587 /* ho.mp3 */,
+				CB7948EB1C6AA0E800E70587 /* laser-prep-reverse.mp3 */,
+				CB7948EC1C6AA0E800E70587 /* laser-prep.mp3 */,
+				CB7948ED1C6AA0E800E70587 /* ninja-sword.mp3 */,
+				CB7948EE1C6AA0E800E70587 /* ninja-whack.mp3 */,
+				CB7948EF1C6AA0E800E70587 /* ninja-whoosh.mp3 */,
+				CB7948F01C6AA0E800E70587 /* notice.mp3 */,
+				CB7948F11C6AA0E800E70587 /* sad-trombone.aiff */,
+				CB7948F21C6AA0E800E70587 /* select-classic.wav */,
+				CB7948F31C6AA0E800E70587 /* small-applause.mp3 */,
+				CB7948F41C6AA0E800E70587 /* sonar.mp3 */,
+				CB7948F51C6AA0E800E70587 /* start-echo.mp3 */,
+				CB7948F61C6AA0E800E70587 /* whoosh.mp3 */,
+			);
+			name = SoundClips;
+			sourceTree = "<group>";
+		};
+		CB7949131C6AB2CF00E70587 /* ThirdPartyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CB7949141C6AB3D800E70587 /* iCarousel.h */,
+				CB7949151C6AB3D800E70587 /* iCarousel.m */,
+				CB0073B01C6B8D54000CEC3F /* iCarousel-README.md */,
+			);
+			name = ThirdPartyClasses;
+			sourceTree = "<group>";
+		};
+		CB7949181C6ABBAE00E70587 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				CB04BC4C1C6B80650042C806 /* bubble1.gif */,
+				CB79492A1C6ADA9000E70587 /* cake-full.gif */,
+				CB7949281C6ADA4500E70587 /* doom.gif */,
+				CB7949261C6AD96A00E70587 /* sad-trombone.gif */,
+				CB7949241C6AD68400E70587 /* small-applause.gif */,
+				CB7949191C6ABBB600E70587 /* achievement.gif */,
+				CB79491B1C6AC1AD00E70587 /* ahh-nicely.gif */,
+				CB79492C1C6ADC1400E70587 /* ho.gif */,
+			);
+			name = Gifs;
+			sourceTree = "<group>";
+		};
+		CB7949201C6AD05000E70587 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CB7949211C6AD07800E70587 /* ScreenList.h */,
+				CB7949221C6AD07800E70587 /* ScreenList.m */,
+				CB79491E1C6ACDB600E70587 /* ScreenList.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +377,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB7948CF1C6A9A3100E70587 /* Build configuration list for PBXNativeTarget "EvilApplesInterviewApp" */;
 			buildPhases = (
+				230E9CE387EE9C352E5904AC /* Check Pods Manifest.lock */,
 				CB7948981C6A9A3100E70587 /* Sources */,
 				CB7948991C6A9A3100E70587 /* Frameworks */,
 				CB79489A1C6A9A3100E70587 /* Resources */,
+				8B66A5241712BBADB07588A2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,7 +389,7 @@
 			);
 			name = EvilApplesInterviewApp;
 			productName = EvilApplesInterviewApp;
-			productReference = CB79489C1C6A9A3100E70587 /* EvilApplesInterviewApp.app */;
+			productReference = CB79489C1C6A9A3100E70587 /* Evil Sounds.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CB7948BA1C6A9A3100E70587 /* EvilApplesInterviewAppTests */ = {
@@ -253,8 +475,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0073B21C6B93F7000CEC3F /* launchImage.png in Resources */,
+				CB7949081C6AA0E800E70587 /* ninja-whack.mp3 in Resources */,
+				CB7949061C6AA0E800E70587 /* laser-prep.mp3 in Resources */,
+				CB7948F71C6AA0E800E70587 /* achievement.wav in Resources */,
+				CB79490C1C6AA0E800E70587 /* select-classic.wav in Resources */,
 				CB7948B51C6A9A3100E70587 /* LaunchScreen.storyboard in Resources */,
+				CB7949101C6AA0E800E70587 /* whoosh.mp3 in Resources */,
+				CB79491F1C6ACDB600E70587 /* ScreenList.plist in Resources */,
 				CB7948B21C6A9A3100E70587 /* Assets.xcassets in Resources */,
+				CB7948FF1C6AA0E800E70587 /* click1.mp3 in Resources */,
+				CB79490A1C6AA0E800E70587 /* notice.mp3 in Resources */,
+				CB7948FC1C6AA0E800E70587 /* cake-full.aif in Resources */,
+				CB04BC4B1C6B768F0042C806 /* speakers.png in Resources */,
+				CB79491A1C6ABBB600E70587 /* achievement.gif in Resources */,
+				CB79490D1C6AA0E800E70587 /* small-applause.mp3 in Resources */,
+				CB7948F91C6AA0E800E70587 /* boo.mp3 in Resources */,
+				CB7949041C6AA0E800E70587 /* ho.mp3 in Resources */,
+				CB7949031C6AA0E800E70587 /* gavel.mp3 in Resources */,
+				CB7949071C6AA0E800E70587 /* ninja-sword.mp3 in Resources */,
+				CB7948FB1C6AA0E800E70587 /* bubble1.wav in Resources */,
+				CB7949251C6AD68400E70587 /* small-applause.gif in Resources */,
+				CB7948FA1C6AA0E800E70587 /* bubble.wav in Resources */,
+				CB79492D1C6ADC1400E70587 /* ho.gif in Resources */,
+				CB7948F81C6AA0E800E70587 /* ahh-nicely.mp3 in Resources */,
+				CB79492B1C6ADA9000E70587 /* cake-full.gif in Resources */,
+				CB7949271C6AD96A00E70587 /* sad-trombone.gif in Resources */,
+				CB7949001C6AA0E800E70587 /* doom.mp3 in Resources */,
+				CB04BC4D1C6B80650042C806 /* bubble1.gif in Resources */,
+				CB79490F1C6AA0E800E70587 /* start-echo.mp3 in Resources */,
+				CB79490B1C6AA0E800E70587 /* sad-trombone.aiff in Resources */,
+				CB79490E1C6AA0E800E70587 /* sonar.mp3 in Resources */,
+				CB7949051C6AA0E800E70587 /* laser-prep-reverse.mp3 in Resources */,
+				CB79491C1C6AC1AD00E70587 /* ahh-nicely.gif in Resources */,
+				CB7948FD1C6AA0E800E70587 /* chat_incoming.mp3 in Resources */,
+				CBACD4561C6B959900B5A40A /* TutorialViewController.xib in Resources */,
+				CB7949091C6AA0E800E70587 /* ninja-whoosh.mp3 in Resources */,
+				CB7949011C6AA0E800E70587 /* drumroll.mp3 in Resources */,
+				CB7949021C6AA0E800E70587 /* elevator-badspeakers.mp3 in Resources */,
+				CB7949291C6ADA4500E70587 /* doom.gif in Resources */,
+				CB7948FE1C6AA0E800E70587 /* click0.mp3 in Resources */,
 				CB7948B01C6A9A3100E70587 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,16 +535,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		230E9CE387EE9C352E5904AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B66A5241712BBADB07588A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvilApplesInterviewApp/Pods-EvilApplesInterviewApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB7948981C6A9A3100E70587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7948AA1C6A9A3100E70587 /* DataViewController.m in Sources */,
 				CB7948A41C6A9A3100E70587 /* AppDelegate.m in Sources */,
-				CB7948AD1C6A9A3100E70587 /* ModelController.m in Sources */,
+				CB7949231C6AD07800E70587 /* ScreenList.m in Sources */,
+				CB7949161C6AB3D800E70587 /* iCarousel.m in Sources */,
+				CB7948DB1C6A9A6300E70587 /* SoundManager.m in Sources */,
+				CB7949331C6B047100E70587 /* SoundManager+SoundManagerExtended.m in Sources */,
 				CB7948A11C6A9A3100E70587 /* main.m in Sources */,
+				CBACD4551C6B959900B5A40A /* TutorialViewController.m in Sources */,
 				CB7948A71C6A9A3100E70587 /* RootViewController.m in Sources */,
+				CB5ECCE51C6BB02300E9E2FE /* ParentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,23 +718,29 @@
 		};
 		CB7948D01C6A9A3100E70587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE59A526844201933BF204D7 /* Pods-EvilApplesInterviewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EvilApplesInterviewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terrickmansur.EvilApplesInterviewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Evil Sounds";
 			};
 			name = Debug;
 		};
 		CB7948D11C6A9A3100E70587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6532385353AB8AB061D1BC64 /* Pods-EvilApplesInterviewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EvilApplesInterviewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terrickmansur.EvilApplesInterviewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Evil Sounds";
 			};
 			name = Release;
 		};
@@ -508,6 +811,7 @@
 				CB7948D11C6A9A3100E70587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB7948D21C6A9A3100E70587 /* Build configuration list for PBXNativeTarget "EvilApplesInterviewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +820,7 @@
 				CB7948D41C6A9A3100E70587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB7948D51C6A9A3100E70587 /* Build configuration list for PBXNativeTarget "EvilApplesInterviewAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +829,7 @@
 				CB7948D71C6A9A3100E70587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
